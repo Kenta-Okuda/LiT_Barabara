@@ -15,6 +15,10 @@
 		84E5078F1D07E80100C56409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E5078D1D07E80100C56409 /* LaunchScreen.storyboard */; };
 		84E5079A1D07E80100C56409 /* BarabaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E507991D07E80100C56409 /* BarabaraTests.swift */; };
 		84E507A51D07E80100C56409 /* BarabaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E507A41D07E80100C56409 /* BarabaraUITests.swift */; };
+		84E507B41D07EAC600C56409 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E507B21D07EAC600C56409 /* bar.png */; };
+		84E507B51D07EAC600C56409 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E507B31D07EAC600C56409 /* tail.png */; };
+		84E507B71D07ED5E00C56409 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E507B61D07ED5E00C56409 /* GameViewController.swift */; };
+		84E507B91D07ED7C00C56409 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E507B81D07ED7C00C56409 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		84E507A01D07E80100C56409 /* BarabaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E507A41D07E80100C56409 /* BarabaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraUITests.swift; sourceTree = "<group>"; };
 		84E507A61D07E80100C56409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E507B21D07EAC600C56409 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		84E507B31D07EAC600C56409 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		84E507B61D07ED5E00C56409 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		84E507B81D07ED7C00C56409 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		84E507751D07E80100C56409 = {
 			isa = PBXGroup;
 			children = (
+				84E507B21D07EAC600C56409 /* bar.png */,
+				84E507B31D07EAC600C56409 /* tail.png */,
 				84E507801D07E80100C56409 /* Barabara */,
 				84E507981D07E80100C56409 /* BarabaraTests */,
 				84E507A31D07E80100C56409 /* BarabaraUITests */,
@@ -102,6 +112,8 @@
 				84E507811D07E80100C56409 /* AppDelegate.swift */,
 				84E507831D07E80100C56409 /* ViewController.swift */,
 				84E507851D07E80100C56409 /* Main.storyboard */,
+				84E507B61D07ED5E00C56409 /* GameViewController.swift */,
+				84E507B81D07ED7C00C56409 /* RankingViewController.swift */,
 				84E5078B1D07E80100C56409 /* Assets.xcassets */,
 				84E5078D1D07E80100C56409 /* LaunchScreen.storyboard */,
 				84E507901D07E80100C56409 /* Info.plist */,
@@ -236,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E5078F1D07E80100C56409 /* LaunchScreen.storyboard in Resources */,
+				84E507B51D07EAC600C56409 /* tail.png in Resources */,
 				84E5078C1D07E80100C56409 /* Assets.xcassets in Resources */,
 				84E507871D07E80100C56409 /* Main.storyboard in Resources */,
+				84E507B41D07EAC600C56409 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E507B91D07ED7C00C56409 /* RankingViewController.swift in Sources */,
+				84E507B71D07ED5E00C56409 /* GameViewController.swift in Sources */,
 				84E507841D07E80100C56409 /* ViewController.swift in Sources */,
 				84E507821D07E80100C56409 /* AppDelegate.swift in Sources */,
 				84E5078A1D07E80100C56409 /* Barabara.xcdatamodeld in Sources */,
